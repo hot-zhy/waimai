@@ -8,4 +8,11 @@
             #{dishId}
         </foreach>
     </select>
+    
+    <delete id="deleteByDishIds">
+        delete from dish_flavor where dish_id in
+            <foreach collection="dishIds" open="(" close=")" separator=",">
+                #{dishId}
+            </foreach>
+    </delete>
 </mapper>

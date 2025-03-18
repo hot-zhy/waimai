@@ -11,3 +11,11 @@ sky:
     access-key-id: LTAI5tA4bYxzuWmNc9P5RCae
     access-key-secret: 4IjAlErrrRuCGPVlY88a8RR1zUVpOo
     bucket-name: extrovert
+
+  redis:
+    host: localhost
+    port: 6379
+
+  wechat:
+    appid: wxe27c7629e330dd4f
+    secret: 11bc12f1ed161c052c360378e6e7992a
